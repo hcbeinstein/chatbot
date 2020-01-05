@@ -1,0 +1,40 @@
+
+
+  body {
+  /* display: grid;
+  grid-row: 75% 25%; */
+  background-color: #f7f7f0;
+  margin: 0;
+}
+
+
+.body-container {
+  background-image: url(./images/background.png);
+  overflow: hidden;
+  padding-top: 50%;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.header {
+  font-family: Didot, serif;
+  /* position: absolute; */
+  top: 5%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.backdrop {
+/* position: absolute; */
+top: 99%;
+height: 30%;
+width: 100%;
+background-color: #f7f7f0;
+opacity: 50%;
+z-index: 100;
+}

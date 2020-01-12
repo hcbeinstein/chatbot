@@ -69,7 +69,7 @@ input {
 
 .search-bar {
   display: inline-block;
-  border: 1px solid red;
+
   margin: auto;
   position: relative;
 }
